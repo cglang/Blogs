@@ -1,0 +1,15 @@
+{
+  "name": "cgl-blog-static",
+  "version": "1.0.0",
+  "private": true,
+  "description": "静态 Markdown 博客预览：文件树 + GitHub 风格 Markdown 渲染",
+  "scripts": {
+    "start": "node serve.js",
+    "build": "node scripts/generate-tree.js",
+    "watch": "node scripts/generate-tree.js --watch",
+    "dev": "node scripts/generate-tree.js && node serve.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
